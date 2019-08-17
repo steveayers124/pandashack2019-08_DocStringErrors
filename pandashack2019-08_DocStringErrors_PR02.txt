@@ -1,0 +1,240 @@
+PR02: Unknown parameters {unknown_params}
+
+
+pandas.tseries.offsets.CBMonthEnd.apply_index: Unknown parameters {i}
+pandas.tseries.offsets.CBMonthBegin.apply_index: Unknown parameters {i}
+pandas.Series.astype: Unknown parameters {kwargs}
+pandas.Series.pipe: Unknown parameters {kwargs, args}
+pandas.Series.clip: Unknown parameters {*args, **kwargs}
+pandas.Series.cummax: Unknown parameters {*args, **kwargs :}
+pandas.Series.cummin: Unknown parameters {*args, **kwargs :}
+pandas.Series.cumprod: Unknown parameters {*args, **kwargs :}
+pandas.Series.cumsum: Unknown parameters {*args, **kwargs :}
+pandas.Series.mad: Unknown parameters {**kwargs, numeric_only}
+pandas.Series.compound: Unknown parameters {**kwargs, numeric_only}
+pandas.Series.drop: Unknown parameters {index, columns}
+pandas.Series.idxmax: Unknown parameters {*args, **kwargs}
+pandas.Series.idxmin: Unknown parameters {*args, **kwargs}
+pandas.Series.reindex: Unknown parameters {copy, tolerance, fill_value, level, limit, method}
+pandas.Series.rename: Unknown parameters {copy, inplace, level}
+pandas.Series.rename_axis: Unknown parameters {copy, mapper, axis, index, columns, inplace}
+pandas.Series.argmin: Unknown parameters {axis, skipna, *args, **kwargs}
+pandas.Series.argmax: Unknown parameters {axis, skipna, *args, **kwargs}
+pandas.Series.swaplevel: Unknown parameters {i, j}
+pandas.Series.dt.to_period: Unknown parameters {freq}
+pandas.Series.dt.tz_localize: Unknown parameters {ambiguous, tz, errors, nonexistent}
+pandas.Series.dt.tz_convert: Unknown parameters {tz}
+pandas.Series.dt.strftime: Unknown parameters {date_format}
+pandas.Series.dt.round: Unknown parameters {ambiguous, freq, nonexistent}
+pandas.Series.dt.floor: Unknown parameters {ambiguous, freq, nonexistent}
+pandas.Series.dt.ceil: Unknown parameters {ambiguous, freq, nonexistent}
+pandas.Series.dt.month_name: Unknown parameters {locale}
+pandas.Series.dt.day_name: Unknown parameters {locale}
+pandas.Series.str.cat: Unknown parameters {sep, others, join, na_rep}
+pandas.Series.str.center: Unknown parameters {width, fillchar}
+pandas.Series.str.contains: Unknown parameters {flags, case, na, pat, regex}
+pandas.Series.str.count: Unknown parameters {flags, pat}
+pandas.Series.str.encode: Unknown parameters {errors, encoding}
+pandas.Series.str.endswith: Unknown parameters {na, pat}
+pandas.Series.str.extract: Unknown parameters {flags, expand, pat}
+pandas.Series.str.extractall: Unknown parameters {flags, pat}
+pandas.Series.str.find: Unknown parameters {end, sub, start}
+pandas.Series.str.findall: Unknown parameters {flags, pat}
+pandas.Series.str.index: Unknown parameters {end, sub, start}
+pandas.Series.str.join: Unknown parameters {sep}
+pandas.Series.str.ljust: Unknown parameters {width, fillchar}
+pandas.Series.str.lstrip: Unknown parameters {to_strip}
+pandas.Series.str.match: Unknown parameters {flags, na, case, pat}
+pandas.Series.str.normalize: Unknown parameters {form}
+pandas.Series.str.pad: Unknown parameters {width, side, fillchar}
+pandas.Series.str.partition: Unknown parameters {sep, expand, pat}
+pandas.Series.str.repeat: Unknown parameters {repeats}
+pandas.Series.str.replace: Unknown parameters {flags, n, case, pat, regex, repl}
+pandas.Series.str.rfind: Unknown parameters {end, sub, start}
+pandas.Series.str.rindex: Unknown parameters {end, sub, start}
+pandas.Series.str.rjust: Unknown parameters {width, fillchar}
+pandas.Series.str.rpartition: Unknown parameters {sep, expand, pat}
+pandas.Series.str.rstrip: Unknown parameters {to_strip}
+pandas.Series.str.slice_replace: Unknown parameters {repl, start, stop}
+pandas.Series.str.split: Unknown parameters {n, expand, pat}
+pandas.Series.str.rsplit: Unknown parameters {n, expand, pat}
+pandas.Series.str.startswith: Unknown parameters {na, pat}
+pandas.Series.str.strip: Unknown parameters {to_strip}
+pandas.Series.str.translate: Unknown parameters {table}
+pandas.Series.str.wrap: Unknown parameters {expand_tabs, drop_whitespace, replace_whitespace, break_long_words, break_on_hyphens, width}
+pandas.Series.str.zfill: Unknown parameters {width}
+pandas.Series.str.get_dummies: Unknown parameters {sep}
+pandas.Series.cat.rename_categories: Unknown parameters {inplace, new_categories}
+pandas.Series.cat.reorder_categories: Unknown parameters {inplace, ordered, new_categories}
+pandas.Series.cat.add_categories: Unknown parameters {inplace, new_categories}
+pandas.Series.cat.remove_categories: Unknown parameters {inplace, removals}
+pandas.Series.cat.remove_unused_categories: Unknown parameters {inplace}
+pandas.Series.cat.set_categories: Unknown parameters {inplace, rename, ordered, new_categories}
+pandas.Series.cat.as_ordered: Unknown parameters {inplace}
+pandas.Series.cat.as_unordered: Unknown parameters {inplace}
+pandas.Series.plot: Unknown parameters {style, xticks, rot, mark_right, yerr, ylim, `**kwds`, grid, xlim, colormap, figsize, position, legend, loglog, xerr, table, yticks, logx, x, title, fontsize, kind, y, logy, include_bool, colorbar, use_index}
+pandas.Series.plot.area: Unknown parameters {stacked, **kwds}
+pandas.Series.plot.bar: Unknown parameters {**kwds}
+pandas.Series.plot.barh: Unknown parameters {**kwds}
+pandas.Series.plot.box: Unknown parameters {**kwds}
+pandas.Series.plot.density: Unknown parameters {**kwds}
+pandas.Series.plot.hist: Unknown parameters {**kwds}
+pandas.Series.plot.kde: Unknown parameters {**kwds}
+pandas.Series.plot.line: Unknown parameters {**kwds}
+pandas.Series.plot.pie: Unknown parameters {y, **kwds}
+pandas.Series.hist: Unknown parameters {`**kwds`}
+pandas.Series.to_csv: Unknown parameters {header, line_terminator, mode, float_format, doublequote, quoting, index, quotechar, path_or_buf, sep, encoding, date_format, na_rep, decimal, compression, escapechar, chunksize, index_label, columns}
+pandas.Series.to_hdf: Unknown parameters {fletcher32, complib, errors, complevel, format, mode, data_columns, dropna, append}
+pandas.Series.to_msgpack: Unknown parameters {compress, path, append}
+pandas.Timestamp: Unknown parameters {hour, minute, second, microsecond, year, month, day}
+pandas.Timestamp.max: Unknown parameters {hour, minute, second, microsecond, year, month, day, tzinfo, tz, freq, unit, nanosecond, ts_input}
+pandas.Timestamp.min: Unknown parameters {hour, minute, second, microsecond, year, month, day, tzinfo, tz, freq, unit, nanosecond, ts_input}
+pandas.Timedelta.max: Unknown parameters {**kwargs, unit, value}
+pandas.Timedelta.min: Unknown parameters {**kwargs, unit, value}
+pandas.Period.asfreq: Unknown parameters {how, freq}
+pandas.Period.to_timestamp: Unknown parameters {how, freq}
+pandas.Interval: Unknown parameters {closed, left, right}
+pandas.Interval.overlaps: Unknown parameters {other}
+pandas.read_excel: Unknown parameters {header, skiprows, engine, **kwds, false_values, mangle_dupe_cols, names, skip_footer, convert_float, index_col, nrows, converters, skipfooter, sheet_name, true_values, keep_default_na, parse_dates, comment, dtype, thousands, usecols, verbose, io, na_values, date_parser, squeeze}
+pandas.ExcelWriter: Unknown parameters {mode, date_format, datetime_format}
+pandas.read_hdf: Unknown parameters {start, errors, iterator, where, stop , chunksize, columns}
+pandas.HDFStore.put: Unknown parameters {dropna  , format  , encoding, data_columns, key     , value   , append  }
+pandas.HDFStore.append: Unknown parameters {append      , min_itemsize, expectedrows, chunksize   , encoding    , dropna      , data_columns, nan_rep     }
+pandas.HDFStore.select: Unknown parameters {stop }
+pandas.read_feather: Unknown parameters {nthreads, use_threads, path, columns}
+pandas.read_stata: Unknown parameters {preserve_dtypes, index_col, iterator, convert_missing, encoding, convert_categoricals, filepath_or_buffer, order_categoricals, chunksize, convert_dates, columns}
+pandas.io.stata.StataReader.data: Unknown parameters {preserve_dtypes, index_col, convert_missing, convert_categoricals, order_categoricals, convert_dates, columns}
+pandas.core.resample.Resampler.pipe: Unknown parameters {kwargs, args}
+pandas.core.resample.Resampler.sem: Unknown parameters {ddof}
+pandas.plotting.andrews_curves: Unknown parameters {frame, color, kwds, samples, class_column, ax, colormap}
+pandas.plotting.bootstrap_plot: Unknown parameters {**kwds :}
+pandas.plotting.lag_plot: Unknown parameters {kwds}
+pandas.plotting.parallel_coordinates: Unknown parameters {frame, axvlines, xticks, color, axvlines_kwds, kwds, use_columns, sort_labels, class_column, ax, cols, colormap}
+pandas.plotting.radviz: Unknown parameters {kwds}
+pandas.plotting.scatter_matrix: Unknown parameters {kwds}
+pandas.describe_option: Unknown parameters {_print_desc, pat}
+pandas.reset_option: Unknown parameters {pat}
+pandas.get_option: Unknown parameters {pat}
+pandas.set_option: Unknown parameters {pat, value}
+pandas.api.types.infer_dtype: Unknown parameters {skipna, value}
+pandas.api.types.is_list_like: Unknown parameters {allow_sets, obj}
+pandas.api.types.is_scalar: Unknown parameters {val}
+pandas.factorize: Unknown parameters {sort, values, order, size_hint, na_sentinel}
+pandas.to_datetime: Unknown parameters {yearfirst, dayfirst, errors, format, origin, box, cache, unit, arg, infer_datetime_format, utc, exact}
+pandas.to_timedelta: Unknown parameters {errors, arg, unit, box}
+pandas.Index.to_native_types: Unknown parameters {kwargs}
+pandas.CategoricalIndex.rename_categories: Unknown parameters {inplace, new_categories}
+pandas.CategoricalIndex.reorder_categories: Unknown parameters {inplace, ordered, new_categories}
+pandas.CategoricalIndex.add_categories: Unknown parameters {inplace, new_categories}
+pandas.CategoricalIndex.remove_categories: Unknown parameters {inplace, removals}
+pandas.CategoricalIndex.remove_unused_categories: Unknown parameters {inplace}
+pandas.CategoricalIndex.set_categories: Unknown parameters {inplace, rename, ordered, new_categories}
+pandas.CategoricalIndex.as_ordered: Unknown parameters {inplace}
+pandas.CategoricalIndex.as_unordered: Unknown parameters {inplace}
+pandas.MultiIndex: Unknown parameters {copy, labels, codes, verify_integrity, names, levels, sortorder}
+pandas.MultiIndex.set_codes: Unknown parameters {codes, inplace, level, verify_integrity}
+pandas.DatetimeIndex: Unknown parameters {copy , data , periods }
+pandas.DatetimeIndex.indexer_between_time: Unknown parameters {start_time, end_time}
+pandas.DatetimeIndex.strftime: Unknown parameters {date_format}
+pandas.DatetimeIndex.tz_convert: Unknown parameters {tz}
+pandas.DatetimeIndex.tz_localize: Unknown parameters {ambiguous, tz, errors, nonexistent}
+pandas.DatetimeIndex.round: Unknown parameters {ambiguous, freq, nonexistent}
+pandas.DatetimeIndex.floor: Unknown parameters {ambiguous, freq, nonexistent}
+pandas.DatetimeIndex.ceil: Unknown parameters {ambiguous, freq, nonexistent}
+pandas.DatetimeIndex.month_name: Unknown parameters {locale}
+pandas.DatetimeIndex.day_name: Unknown parameters {locale}
+pandas.DatetimeIndex.to_period: Unknown parameters {freq}
+pandas.DatetimeIndex.to_perioddelta: Unknown parameters {freq}
+pandas.DatetimeIndex.mean: Unknown parameters {skipna}
+pandas.TimedeltaIndex: Unknown parameters {copy , data , periods }
+pandas.TimedeltaIndex.round: Unknown parameters {ambiguous, freq, nonexistent}
+pandas.TimedeltaIndex.floor: Unknown parameters {ambiguous, freq, nonexistent}
+pandas.TimedeltaIndex.ceil: Unknown parameters {ambiguous, freq, nonexistent}
+pandas.TimedeltaIndex.mean: Unknown parameters {skipna}
+pandas.PeriodIndex: Unknown parameters {month, hour, quarter, year, second, day, minute}
+pandas.PeriodIndex.asfreq: Unknown parameters {how, freq}
+pandas.PeriodIndex.strftime: Unknown parameters {date_format}
+pandas.PeriodIndex.to_timestamp: Unknown parameters {how, freq}
+pandas.core.window.rolling.Rolling.sum: Unknown parameters {*args, **kwargs}
+pandas.core.window.rolling.Rolling.var: Unknown parameters {*args, **kwargs}
+pandas.core.window.rolling.Rolling.std: Unknown parameters {*args, **kwargs}
+pandas.core.window.rolling.Rolling.max: Unknown parameters {*args, **kwargs}
+pandas.core.window.rolling.Rolling.apply: Unknown parameters {*args, **kwargs}
+pandas.core.window.rolling.Rolling.aggregate: Unknown parameters {func}
+pandas.core.window.rolling.Rolling.quantile: Unknown parameters {**kwargs:}
+pandas.core.window.rolling.Window.sum: Unknown parameters {*args, **kwargs}
+pandas.core.window.expanding.Expanding.sum: Unknown parameters {*args, **kwargs}
+pandas.core.window.expanding.Expanding.var: Unknown parameters {*args, **kwargs}
+pandas.core.window.expanding.Expanding.std: Unknown parameters {*args, **kwargs}
+pandas.core.window.expanding.Expanding.max: Unknown parameters {*args, **kwargs}
+pandas.core.window.expanding.Expanding.apply: Unknown parameters {*args, **kwargs}
+pandas.core.window.expanding.Expanding.aggregate: Unknown parameters {func}
+pandas.core.window.expanding.Expanding.quantile: Unknown parameters {**kwargs:}
+pandas.core.window.ewm.EWM.mean: Unknown parameters {*args, **kwargs}
+pandas.core.window.ewm.EWM.std: Unknown parameters {*args, **kwargs}
+pandas.core.window.ewm.EWM.var: Unknown parameters {*args, **kwargs}
+pandas.core.window.ewm.EWM.corr: Unknown parameters {bias}
+pandas.Grouper: Unknown parameters {sort, axis, key, loffset, closed, base, convention, freq, level, label}
+pandas.core.groupby.GroupBy.apply: Unknown parameters {args, kwargs}
+pandas.core.groupby.GroupBy.pipe: Unknown parameters {kwargs, args}
+pandas.core.groupby.DataFrameGroupBy.corr: Unknown parameters {min_periods, method}
+pandas.core.groupby.DataFrameGroupBy.cov: Unknown parameters {min_periods}
+pandas.core.groupby.DataFrameGroupBy.describe: Unknown parameters {include, exclude, percentiles}
+pandas.core.groupby.DataFrameGroupBy.diff: Unknown parameters {axis, periods}
+pandas.core.groupby.DataFrameGroupBy.fillna: Unknown parameters {value, downcast, inplace, axis, limit, method}
+pandas.core.groupby.DataFrameGroupBy.filter: Unknown parameters {f}
+pandas.core.groupby.DataFrameGroupBy.hist: Unknown parameters {figsize, sharey, sharex, **kwds, yrot, bins, ylabelsize, layout, xlabelsize, xrot, column, grid, ax, data, by}
+pandas.core.groupby.DataFrameGroupBy.idxmax: Unknown parameters {axis, skipna}
+pandas.core.groupby.DataFrameGroupBy.idxmin: Unknown parameters {axis, skipna}
+pandas.core.groupby.DataFrameGroupBy.mad: Unknown parameters {numeric_only, skipna, level, axis, **kwargs}
+pandas.core.groupby.DataFrameGroupBy.resample: Unknown parameters {*args, **kwargs}
+pandas.core.groupby.DataFrameGroupBy.skew: Unknown parameters {numeric_only, skipna, level, axis, **kwargs}
+pandas.core.groupby.DataFrameGroupBy.take: Unknown parameters {**kwargs, axis, indices, is_copy}
+pandas.core.groupby.DataFrameGroupBy.tshift: Unknown parameters {axis, periods, freq}
+pandas.core.groupby.SeriesGroupBy.nlargest: Unknown parameters {keep, n}
+pandas.core.groupby.SeriesGroupBy.nsmallest: Unknown parameters {keep, n}
+pandas.core.groupby.DataFrameGroupBy.corrwith: Unknown parameters {drop, axis, other, method}
+pandas.core.groupby.DataFrameGroupBy.boxplot: Unknown parameters {`**kwds`}
+pandas.io.formats.style.Styler.apply: Unknown parameters {kwargs}
+pandas.io.formats.style.Styler.applymap: Unknown parameters {kwargs}
+pandas.io.formats.style.Styler.where: Unknown parameters {kwargs}
+pandas.io.formats.style.Styler.set_properties: Unknown parameters {kwargs}
+pandas.io.formats.style.Styler.pipe: Unknown parameters {*args, **kwargs :}
+pandas.io.formats.style.Styler.background_gradient: Unknown parameters {low, high}
+pandas.api.extensions.ExtensionArray.argsort: Unknown parameters {*args, **kwargs:}
+pandas.DataFrame.select_dtypes: Unknown parameters {include, exclude}
+pandas.DataFrame.astype: Unknown parameters {kwargs}
+pandas.DataFrame.pipe: Unknown parameters {kwargs, args}
+pandas.DataFrame.clip: Unknown parameters {*args, **kwargs}
+pandas.DataFrame.compound: Unknown parameters {**kwargs, numeric_only}
+pandas.DataFrame.cummax: Unknown parameters {*args, **kwargs :}
+pandas.DataFrame.cummin: Unknown parameters {*args, **kwargs :}
+pandas.DataFrame.cumprod: Unknown parameters {*args, **kwargs :}
+pandas.DataFrame.cumsum: Unknown parameters {*args, **kwargs :}
+pandas.DataFrame.eval: Unknown parameters {kwargs}
+pandas.DataFrame.mad: Unknown parameters {**kwargs, numeric_only}
+pandas.DataFrame.reindex: Unknown parameters {copy, labels, axis, tolerance, fill_value, index, columns, level, limit, method}
+pandas.DataFrame.rename: Unknown parameters {copy, errors, mapper, axis, level, inplace, index, columns}
+pandas.DataFrame.rename_axis: Unknown parameters {copy, mapper, axis, index, columns, inplace}
+pandas.DataFrame.swaplevel: Unknown parameters {i, j}
+pandas.DataFrame.melt: Unknown parameters {frame}
+pandas.DataFrame.T: Unknown parameters {copy, *args, **kwargs}
+pandas.DataFrame.transpose: Unknown parameters {copy, *args, **kwargs}
+pandas.DataFrame.update: Unknown parameters {errors, join, overwrite, other, filter_func}
+pandas.DataFrame.plot: Unknown parameters {style, xticks, rot, mark_right, yerr, ylim, `**kwds`, grid, xlim, colormap, figsize, position, legend, loglog, xerr, table, yticks, logx, x, title, fontsize, kind, y, logy, include_bool, colorbar, use_index}
+pandas.DataFrame.plot.area: Unknown parameters {stacked, **kwds}
+pandas.DataFrame.plot.bar: Unknown parameters {**kwds}
+pandas.DataFrame.plot.barh: Unknown parameters {**kwds}
+pandas.DataFrame.plot.box: Unknown parameters {**kwds}
+pandas.DataFrame.plot.density: Unknown parameters {**kwds}
+pandas.DataFrame.plot.hexbin: Unknown parameters {**kwds}
+pandas.DataFrame.plot.hist: Unknown parameters {**kwds}
+pandas.DataFrame.plot.kde: Unknown parameters {**kwds}
+pandas.DataFrame.plot.line: Unknown parameters {**kwds}
+pandas.DataFrame.plot.pie: Unknown parameters {y, **kwds}
+pandas.DataFrame.plot.scatter: Unknown parameters {**kwds}
+pandas.DataFrame.sparse.from_spmatrix: Unknown parameters {index, columns}
+pandas.DataFrame.to_hdf: Unknown parameters {fletcher32, complib, errors, complevel, format, mode, data_columns, dropna, append}
+pandas.DataFrame.to_html: Unknown parameters {min_rows}
+pandas.DataFrame.to_stata: Unknown parameters {variable_labels, version, data_label, write_index, time_stamp, fname, encoding, convert_strl, byteorder, convert_dates}
+pandas.DataFrame.to_msgpack: Unknown parameters {compress, path, append}

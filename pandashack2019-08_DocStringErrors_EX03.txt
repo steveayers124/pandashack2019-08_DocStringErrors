@@ -1,0 +1,250 @@
+EX03: flake8 error: {error_code} {error_message}{times_happening}
+
+
+pandas.tseries.offsets.DateOffset: flake8 error: F821 undefined name 'DateOffset' (2 times)
+pandas.tseries.frequencies.to_offset: flake8 error: F821 undefined name 'to_offset' (8 times)
+pandas.Series.astype: flake8 error: E126 continuation line over-indented for hanging indent
+pandas.Series.astype: flake8 error: E231 missing whitespace after ','
+pandas.Series.loc: flake8 error: E121 continuation line under-indented for hanging indent
+pandas.Series.loc: flake8 error: E126 continuation line over-indented for hanging indent
+pandas.Series.loc: flake8 error: E128 continuation line under-indented for visual indent (3 times)
+pandas.Series.iloc: flake8 error: E202 whitespace before '}'
+pandas.Series.pop: flake8 error: E231 missing whitespace after ','
+pandas.Series.apply: flake8 error: E302 expected 2 blank lines, found 0 (3 times)
+pandas.Series.apply: flake8 error: E305 expected 2 blank lines after class or function definition, found 0 (3 times)
+pandas.Series.rolling: flake8 error: E251 unexpected spaces around keyword / parameter equals (2 times)
+pandas.Series.corr: flake8 error: E302 expected 2 blank lines, found 0
+pandas.Series.corr: flake8 error: E305 expected 2 blank lines after class or function definition, found 0
+pandas.Series.cummax: flake8 error: E127 continuation line over-indented for visual indent
+pandas.Series.cummin: flake8 error: E127 continuation line over-indented for visual indent
+pandas.Series.cumprod: flake8 error: E127 continuation line over-indented for visual indent
+pandas.Series.cumsum: flake8 error: E127 continuation line over-indented for visual indent
+pandas.Series.describe: flake8 error: E121 continuation line under-indented for hanging indent
+pandas.Series.describe: flake8 error: E124 closing bracket does not match visual indentation
+pandas.Series.describe: flake8 error: E231 missing whitespace after ',' (2 times)
+pandas.Series.droplevel: flake8 error: E121 continuation line under-indented for hanging indent
+pandas.Series.first: flake8 error: E231 missing whitespace after ',' (3 times)
+pandas.Series.head: flake8 error: E231 missing whitespace after ':'
+pandas.Series.last: flake8 error: E231 missing whitespace after ',' (3 times)
+pandas.Series.reindex: flake8 error: E126 continuation line over-indented for hanging indent (2 times)
+pandas.Series.reindex: flake8 error: E225 missing whitespace around operator
+pandas.Series.reindex: flake8 error: E231 missing whitespace after ',' (4 times)
+pandas.Series.reindex_like: flake8 error: E128 continuation line under-indented for visual indent (2 times)
+pandas.Series.take: flake8 error: E127 continuation line over-indented for visual indent (2 times)
+pandas.Series.take: flake8 error: E241 multiple spaces after ',' (4 times)
+pandas.Series.tail: flake8 error: E231 missing whitespace after ':'
+pandas.Series.truncate: flake8 error: E127 continuation line over-indented for visual indent
+pandas.Series.add_prefix: flake8 error: E241 multiple spaces after ','
+pandas.Series.add_suffix: flake8 error: E241 multiple spaces after ','
+pandas.Series.searchsorted: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.Series.searchsorted: flake8 error: E999 SyntaxError: invalid syntax
+pandas.Series.asfreq: flake8 error: E231 missing whitespace after ':'
+pandas.Series.resample: flake8 error: E302 expected 2 blank lines, found 0
+pandas.Series.resample: flake8 error: E305 expected 2 blank lines after class or function definition, found 0
+pandas.Series.tz_localize: flake8 error: E122 continuation line missing indentation or outdented (12 times)
+pandas.Series.tz_localize: flake8 error: E128 continuation line under-indented for visual indent
+pandas.Series.dt.is_leap_year: flake8 error: F821 undefined name 'dates_series' (2 times)
+pandas.Series.str.contains: flake8 error: W605 invalid escape sequence '\d'
+pandas.Series.str.count: flake8 error: W605 invalid escape sequence '\$'
+pandas.Series.str.len: flake8 error: E127 continuation line over-indented for visual indent
+pandas.Series.str.split: flake8 error: E251 unexpected spaces around keyword / parameter equals (2 times)
+pandas.Series.str.rsplit: flake8 error: E251 unexpected spaces around keyword / parameter equals (2 times)
+pandas.Series.str: flake8 error: F821 undefined name 's' (2 times)
+pandas.Series.cat: flake8 error: E231 missing whitespace after ','
+pandas.Series.cat: flake8 error: F821 undefined name 's' (10 times)
+pandas.Index.str: flake8 error: F821 undefined name 's' (2 times)
+pandas.Series.sparse.npoints: flake8 error: F821 undefined name 'SparseArray'
+pandas.Series.sparse.density: flake8 error: F821 undefined name 'SparseArray'
+pandas.Series.sparse.sp_values: flake8 error: F821 undefined name 'SparseArray'
+pandas.Series.sparse.from_coo: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.Series.sparse.from_coo: flake8 error: E999 SyntaxError: invalid syntax
+pandas.Series.sparse.to_coo: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.Series.sparse.to_coo: flake8 error: E999 SyntaxError: invalid syntax
+pandas.Series.plot.bar: flake8 error: E231 missing whitespace after ':' (2 times)
+pandas.Series.plot.hist: flake8 error: E251 unexpected spaces around keyword / parameter equals (2 times)
+pandas.Series.plot.line: flake8 error: E121 continuation line under-indented for hanging indent
+pandas.Series.plot.line: flake8 error: E123 closing bracket does not match indentation of opening bracket's line
+pandas.Series.to_excel: flake8 error: F821 undefined name 'df'
+pandas.Series.to_xarray: flake8 error: E127 continuation line over-indented for visual indent
+pandas.Series.to_xarray: flake8 error: E128 continuation line under-indented for visual indent (3 times)
+pandas.Series.to_xarray: flake8 error: E241 multiple spaces after ',' (2 times)
+pandas.Series.to_latex: flake8 error: E261 at least two spaces before inline comment
+pandas.SparseSeries.to_coo: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.SparseSeries.to_coo: flake8 error: E999 SyntaxError: invalid syntax
+pandas.SparseSeries.from_coo: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.SparseSeries.from_coo: flake8 error: E999 SyntaxError: invalid syntax
+pandas.Period.strftime: flake8 error: F821 undefined name 'Period' (2 times)
+pandas.arrays.IntervalArray.from_arrays: flake8 error: F821 undefined name 'IntervalArray'
+pandas.ExcelWriter: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.ExcelWriter: flake8 error: E999 SyntaxError: invalid syntax
+pandas.io.json.build_table_schema: flake8 error: E124 closing bracket does not match visual indentation
+pandas.io.json.build_table_schema: flake8 error: F821 undefined name 'build_table_schema'
+pandas.read_stata: flake8 error: F821 undefined name 'do_something'
+pandas.core.resample.Resampler.apply: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.core.resample.Resampler.apply: flake8 error: E999 SyntaxError: invalid syntax
+pandas.core.resample.Resampler.aggregate: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.core.resample.Resampler.aggregate: flake8 error: E999 SyntaxError: invalid syntax
+pandas.core.resample.Resampler.transform: flake8 error: F821 undefined name 'resampled'
+pandas.core.resample.Resampler.pipe: flake8 error: F821 undefined name 'h' (14 times)
+pandas.core.resample.Resampler.fillna: flake8 error: E128 continuation line under-indented for visual indent
+pandas.plotting.parallel_coordinates: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.plotting.parallel_coordinates: flake8 error: E999 SyntaxError: invalid syntax
+pandas.plotting.radviz: flake8 error: E121 continuation line under-indented for hanging indent
+pandas.plotting.radviz: flake8 error: E126 continuation line over-indented for hanging indent
+pandas.plotting.scatter_matrix: flake8 error: E231 missing whitespace after ',' (3 times)
+pandas.plotting.scatter_matrix: flake8 error: F821 undefined name 'scatter_matrix'
+pandas.option_context: flake8 error: F821 undefined name 'option_context'
+pandas.api.types.infer_dtype: flake8 error: F821 undefined name 'infer_dtype' (20 times)
+pandas.api.types.is_bool_dtype: flake8 error: F821 undefined name 'is_bool_dtype' (9 times)
+pandas.api.types.is_categorical_dtype: flake8 error: F821 undefined name 'is_categorical_dtype' (6 times)
+pandas.api.types.is_complex_dtype: flake8 error: F821 undefined name 'is_complex_dtype' (6 times)
+pandas.api.types.is_datetime64_any_dtype: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.api.types.is_datetime64_any_dtype: flake8 error: E999 SyntaxError: unexpected EOF while parsing
+pandas.api.types.is_datetime64_dtype: flake8 error: F821 undefined name 'is_datetime64_dtype' (5 times)
+pandas.api.types.is_datetime64_ns_dtype: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.api.types.is_datetime64_ns_dtype: flake8 error: E999 SyntaxError: unexpected EOF while parsing
+pandas.api.types.is_datetime64tz_dtype: flake8 error: F821 undefined name 'is_datetime64tz_dtype' (7 times)
+pandas.api.types.is_extension_type: flake8 error: F821 undefined name 'is_extension_type' (11 times)
+pandas.api.types.is_float_dtype: flake8 error: F821 undefined name 'is_float_dtype' (6 times)
+pandas.api.types.is_int64_dtype: flake8 error: F821 undefined name 'is_int64_dtype' (12 times)
+pandas.api.types.is_integer_dtype: flake8 error: F821 undefined name 'is_integer_dtype' (13 times)
+pandas.api.types.is_interval_dtype: flake8 error: F821 undefined name 'is_interval_dtype' (6 times)
+pandas.api.types.is_numeric_dtype: flake8 error: F821 undefined name 'is_numeric_dtype' (10 times)
+pandas.api.types.is_object_dtype: flake8 error: F821 undefined name 'is_object_dtype' (5 times)
+pandas.api.types.is_period_dtype: flake8 error: F821 undefined name 'is_period_dtype' (6 times)
+pandas.api.types.is_signed_integer_dtype: flake8 error: F821 undefined name 'is_signed_integer_dtype' (14 times)
+pandas.api.types.is_string_dtype: flake8 error: F821 undefined name 'is_string_dtype' (5 times)
+pandas.api.types.is_timedelta64_dtype: flake8 error: F821 undefined name 'is_timedelta64_dtype' (5 times)
+pandas.api.types.is_timedelta64_ns_dtype: flake8 error: F821 undefined name 'is_timedelta64_ns_dtype' (4 times)
+pandas.api.types.is_unsigned_integer_dtype: flake8 error: F821 undefined name 'is_unsigned_integer_dtype' (11 times)
+pandas.api.types.is_sparse: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.api.types.is_sparse: flake8 error: E999 SyntaxError: invalid syntax
+pandas.api.types.is_dict_like: flake8 error: F821 undefined name 'is_dict_like' (4 times)
+pandas.api.types.is_file_like: flake8 error: F821 undefined name 'buffer' (5 times)
+pandas.api.types.is_list_like: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.api.types.is_list_like: flake8 error: E999 SyntaxError: invalid syntax
+pandas.api.types.is_named_tuple: flake8 error: F821 undefined name 'namedtuple' (3 times)
+pandas.api.types.is_iterator: flake8 error: F821 undefined name 'is_iterator' (5 times)
+pandas.api.types.is_categorical: flake8 error: F821 undefined name 'is_categorical' (4 times)
+pandas.api.types.is_datetimetz: flake8 error: F821 undefined name 'is_datetimetz' (5 times)
+pandas.api.types.is_hashable: flake8 error: F821 undefined name 'collections' (2 times)
+pandas.api.types.is_period: flake8 error: F821 undefined name 'is_period' (3 times)
+pandas.api.types.is_re: flake8 error: F821 undefined name 'is_re' (3 times)
+pandas.api.types.is_re_compilable: flake8 error: F821 undefined name 'is_re_compilable' (2 times)
+pandas.pivot_table: flake8 error: E128 continuation line under-indented for visual indent (4 times)
+pandas.merge_ordered: flake8 error: E221 multiple spaces before operator
+pandas.merge_ordered: flake8 error: E225 missing whitespace around operator
+pandas.merge_ordered: flake8 error: E999 SyntaxError: invalid syntax
+pandas.merge_asof: flake8 error: E127 continuation line over-indented for visual indent (9 times)
+pandas.merge_asof: flake8 error: F821 undefined name 'quotes' (8 times)
+pandas.wide_to_long: flake8 error: C403 Unnecessary list comprehension - rewrite as a set comprehension.
+pandas.wide_to_long: flake8 error: E124 closing bracket does not match visual indentation
+pandas.wide_to_long: flake8 error: E202 whitespace before ']'
+pandas.wide_to_long: flake8 error: E261 at least two spaces before inline comment
+pandas.wide_to_long: flake8 error: E741 ambiguous variable name 'l' (2 times)
+pandas.wide_to_long: flake8 error: W605 invalid escape sequence '\w'
+pandas.to_datetime: flake8 error: E231 missing whitespace after ',' (2 times)
+pandas.to_datetime: flake8 error: E999 SyntaxError: invalid syntax
+pandas.Index.is_monotonic_increasing: flake8 error: F821 undefined name 'Index' (3 times)
+pandas.Index.is_monotonic_decreasing: flake8 error: F821 undefined name 'Index' (3 times)
+pandas.Index.rename: flake8 error: E127 continuation line over-indented for visual indent
+pandas.Index.searchsorted: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.Index.searchsorted: flake8 error: E999 SyntaxError: invalid syntax
+pandas.Index.get_values: flake8 error: E127 continuation line over-indented for visual indent
+pandas.Index.isin: flake8 error: E231 missing whitespace after ',' (4 times)
+pandas.CategoricalIndex: flake8 error: E231 missing whitespace after ',' (5 times)
+pandas.IntervalIndex.from_arrays: flake8 error: F821 undefined name 'IntervalIndex'
+pandas.IndexSlice: flake8 error: E231 missing whitespace after ',' (4 times)
+pandas.IndexSlice: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.IndexSlice: flake8 error: E999 SyntaxError: invalid syntax
+pandas.MultiIndex.set_levels: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.MultiIndex.set_levels: flake8 error: E999 SyntaxError: invalid syntax
+pandas.MultiIndex.set_codes: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.MultiIndex.set_codes: flake8 error: E999 SyntaxError: invalid syntax
+pandas.MultiIndex.to_hierarchical: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.MultiIndex.to_hierarchical: flake8 error: E999 SyntaxError: unexpected EOF while parsing
+pandas.DatetimeIndex.is_leap_year: flake8 error: F821 undefined name 'dates_series' (2 times)
+pandas.PeriodIndex: flake8 error: F821 undefined name 'year_arr' (2 times)
+pandas.core.window.rolling.Rolling.corr: flake8 error: E231 missing whitespace after ',' (5 times)
+pandas.core.window.rolling.Rolling.corr: flake8 error: E241 multiple spaces after ','
+pandas.core.window.rolling.Rolling.aggregate: flake8 error: E231 missing whitespace after ':' (2 times)
+pandas.core.window.expanding.Expanding.corr: flake8 error: E231 missing whitespace after ',' (5 times)
+pandas.core.window.expanding.Expanding.corr: flake8 error: E241 multiple spaces after ','
+pandas.Grouper: flake8 error: F821 undefined name 'df' (6 times)
+pandas.core.groupby.GroupBy.pipe: flake8 error: F821 undefined name 'h' (14 times)
+pandas.core.groupby.GroupBy.cumcount: flake8 error: F821 undefined name 'self'
+pandas.core.groupby.GroupBy.ngroup: flake8 error: E231 missing whitespace after ',' (5 times)
+pandas.core.groupby.DataFrameGroupBy.corr: flake8 error: E302 expected 2 blank lines, found 0
+pandas.core.groupby.DataFrameGroupBy.corr: flake8 error: E305 expected 2 blank lines after class or function definition, found 0
+pandas.core.groupby.DataFrameGroupBy.describe: flake8 error: E121 continuation line under-indented for hanging indent
+pandas.core.groupby.DataFrameGroupBy.describe: flake8 error: E124 closing bracket does not match visual indentation
+pandas.core.groupby.DataFrameGroupBy.describe: flake8 error: E231 missing whitespace after ',' (2 times)
+pandas.core.groupby.DataFrameGroupBy.hist: flake8 error: E123 closing bracket does not match indentation of opening bracket's line
+pandas.core.groupby.DataFrameGroupBy.take: flake8 error: E127 continuation line over-indented for visual indent (2 times)
+pandas.core.groupby.DataFrameGroupBy.take: flake8 error: E241 multiple spaces after ',' (4 times)
+pandas.core.groupby.DataFrameGroupBy.boxplot: flake8 error: E231 missing whitespace after ','
+pandas.core.groupby.DataFrameGroupBy.boxplot: flake8 error: F821 undefined name 'boxplot_frame_groupby' (2 times)
+pandas.io.formats.style.Styler.apply: flake8 error: E302 expected 2 blank lines, found 0
+pandas.io.formats.style.Styler.apply: flake8 error: E902 TokenError: EOF in multi-line statement
+pandas.io.formats.style.Styler.apply: flake8 error: E999 SyntaxError: invalid syntax
+pandas.io.formats.style.Styler.pipe: flake8 error: E302 expected 2 blank lines, found 0
+pandas.io.formats.style.Styler.pipe: flake8 error: E305 expected 2 blank lines after class or function definition, found 0
+pandas.io.formats.style.Styler.to_excel: flake8 error: F821 undefined name 'df'
+pandas.DataFrame.values: flake8 error: E128 continuation line under-indented for visual indent
+pandas.DataFrame.values: flake8 error: E201 whitespace after '['
+pandas.DataFrame.values: flake8 error: E241 multiple spaces after ':' (4 times)
+pandas.DataFrame.memory_usage: flake8 error: C404 Unnecessary list comprehension - rewrite as a dict comprehension.
+pandas.DataFrame.astype: flake8 error: E126 continuation line over-indented for hanging indent
+pandas.DataFrame.astype: flake8 error: E231 missing whitespace after ','
+pandas.DataFrame.head: flake8 error: E231 missing whitespace after ':'
+pandas.DataFrame.loc: flake8 error: E121 continuation line under-indented for hanging indent
+pandas.DataFrame.loc: flake8 error: E126 continuation line over-indented for hanging indent
+pandas.DataFrame.loc: flake8 error: E128 continuation line under-indented for visual indent (3 times)
+pandas.DataFrame.iloc: flake8 error: E202 whitespace before '}'
+pandas.DataFrame.pop: flake8 error: E231 missing whitespace after ','
+pandas.DataFrame.tail: flake8 error: E231 missing whitespace after ':'
+pandas.DataFrame.rolling: flake8 error: E251 unexpected spaces around keyword / parameter equals (2 times)
+pandas.DataFrame.corr: flake8 error: E302 expected 2 blank lines, found 0
+pandas.DataFrame.corr: flake8 error: E305 expected 2 blank lines after class or function definition, found 0
+pandas.DataFrame.cummax: flake8 error: E127 continuation line over-indented for visual indent
+pandas.DataFrame.cummin: flake8 error: E127 continuation line over-indented for visual indent
+pandas.DataFrame.cumprod: flake8 error: E127 continuation line over-indented for visual indent
+pandas.DataFrame.cumsum: flake8 error: E127 continuation line over-indented for visual indent
+pandas.DataFrame.describe: flake8 error: E121 continuation line under-indented for hanging indent
+pandas.DataFrame.describe: flake8 error: E124 closing bracket does not match visual indentation
+pandas.DataFrame.describe: flake8 error: E231 missing whitespace after ',' (2 times)
+pandas.DataFrame.add_prefix: flake8 error: E241 multiple spaces after ','
+pandas.DataFrame.add_suffix: flake8 error: E241 multiple spaces after ','
+pandas.DataFrame.first: flake8 error: E231 missing whitespace after ',' (3 times)
+pandas.DataFrame.last: flake8 error: E231 missing whitespace after ',' (3 times)
+pandas.DataFrame.reindex: flake8 error: E126 continuation line over-indented for hanging indent (2 times)
+pandas.DataFrame.reindex: flake8 error: E225 missing whitespace around operator
+pandas.DataFrame.reindex: flake8 error: E231 missing whitespace after ',' (4 times)
+pandas.DataFrame.reindex_like: flake8 error: E128 continuation line under-indented for visual indent (2 times)
+pandas.DataFrame.reset_index: flake8 error: E201 whitespace after '(' (2 times)
+pandas.DataFrame.take: flake8 error: E127 continuation line over-indented for visual indent (2 times)
+pandas.DataFrame.take: flake8 error: E241 multiple spaces after ',' (4 times)
+pandas.DataFrame.truncate: flake8 error: E127 continuation line over-indented for visual indent
+pandas.DataFrame.droplevel: flake8 error: E121 continuation line under-indented for hanging indent
+pandas.DataFrame.pivot_table: flake8 error: E128 continuation line under-indented for visual indent (4 times)
+pandas.DataFrame.to_xarray: flake8 error: E127 continuation line over-indented for visual indent
+pandas.DataFrame.to_xarray: flake8 error: E128 continuation line under-indented for visual indent (3 times)
+pandas.DataFrame.to_xarray: flake8 error: E241 multiple spaces after ',' (2 times)
+pandas.DataFrame.T: flake8 error: E261 at least two spaces before inline comment (2 times)
+pandas.DataFrame.transpose: flake8 error: E261 at least two spaces before inline comment (2 times)
+pandas.DataFrame.assign: flake8 error: E222 multiple spaces after operator
+pandas.DataFrame.asfreq: flake8 error: E231 missing whitespace after ':'
+pandas.DataFrame.resample: flake8 error: E302 expected 2 blank lines, found 0
+pandas.DataFrame.resample: flake8 error: E305 expected 2 blank lines after class or function definition, found 0
+pandas.DataFrame.tz_localize: flake8 error: E122 continuation line missing indentation or outdented (12 times)
+pandas.DataFrame.tz_localize: flake8 error: E128 continuation line under-indented for visual indent
+pandas.DataFrame.plot.bar: flake8 error: E231 missing whitespace after ':' (2 times)
+pandas.DataFrame.plot.hexbin: flake8 error: E123 closing bracket does not match indentation of opening bracket's line
+pandas.DataFrame.plot.hexbin: flake8 error: E231 missing whitespace after ','
+pandas.DataFrame.plot.hist: flake8 error: E251 unexpected spaces around keyword / parameter equals (2 times)
+pandas.DataFrame.plot.line: flake8 error: E121 continuation line under-indented for hanging indent
+pandas.DataFrame.plot.line: flake8 error: E123 closing bracket does not match indentation of opening bracket's line
+pandas.DataFrame.boxplot: flake8 error: E231 missing whitespace after ',' (3 times)
+pandas.DataFrame.hist: flake8 error: E123 closing bracket does not match indentation of opening bracket's line
+pandas.DataFrame.to_excel: flake8 error: F821 undefined name 'df'
+pandas.DataFrame.to_latex: flake8 error: E261 at least two spaces before inline comment
